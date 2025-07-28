@@ -117,7 +117,7 @@ PrivateData = @{
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        # ProjectUri = 'https://github.com/9whirls/Teradici.Anyware.Manager'
+        ProjectUri = 'https://github.com/9whirls/Teradici.Anyware.Manager'
 
         # A URL to an icon representing this module.
         # IconUri = ''
