@@ -2,6 +2,7 @@
 Powershell module for manipulating Teradici Anyware Manager (https://cas.teradici.com/) by consuming Anyware Manager's RESTful APIs (https://cas.teradici.com/api/docs)
 
 # Function List
+```
 Connect-CAS: connect to Teradici Anyware Manager via either an API token or a service account. The connection object is saved as $global:defaultCas.
 
 Get-CasAdComputer: retrieve registered Active Directory (AD) computers
@@ -31,3 +32,8 @@ Remove-CasDeployment: delete a deployment
 Remove-CasEntitlement: delete an entitlement
 
 Remove-CasMachine: remove a machine from deployment
+```
+# Install
+```
+Install-Module -Name Teradici.Anyware.Manager
+```
